@@ -22,9 +22,31 @@ export default new Vuex.Store({
     day: null,
     states: {
       none: { ...stateMockup },
+      audcad: { ...stateMockup },
+      audusd: { ...stateMockup },
+      audjpy: { ...stateMockup },
+
+      cadjpy: { ...stateMockup },
+
       eurusd: { ...stateMockup },
       eurgbp: { ...stateMockup },
-      audcad: { ...stateMockup }
+      euraud: { ...stateMockup },
+      eurjpy: { ...stateMockup },
+      eurcad: { ...stateMockup },
+      eurchf: { ...stateMockup },
+
+      gbpusd: { ...stateMockup },
+      gbpnzd: { ...stateMockup },
+      gbpchf: { ...stateMockup },
+      gbpcad: { ...stateMockup },
+      gbpaud: { ...stateMockup },
+      gbpjpy: { ...stateMockup },
+
+      nzdusd: { ...stateMockup },
+
+      usdjpy: { ...stateMockup },
+      usdcad: { ...stateMockup },
+      usdchf: { ...stateMockup }
     }
   },
   getters: {

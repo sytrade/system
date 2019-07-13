@@ -13,9 +13,31 @@
             <section class="input__group">
               <select :disabled="loading" v-model="currency" required id="currency" style="width:100%; margin-bottom: 10px">
                 <option value="none">Nenhuma</option>
+                <option value="audcad">AUD/CAD</option>
+                <option value="audusd">AUD/USD</option>
+                <option value="audjpy">AUD/JPY</option>
+
+                <option value="cadjpy">CAD/JPY</option>
+
                 <option value="eurusd">EUR/USD</option>
                 <option value="eurgbp">EUR/GBP</option>
-                <option value="audcad">AUD/CAD</option>
+                <option value="euraud">EUR/AUD</option>
+                <option value="eurjpy">EUR/JPY</option>
+                <option value="eurcad">EUR/CAD</option>
+                <option value="eurchf">EUR/CHF</option>
+
+                <option value="gbpusd">GBP/USD</option>
+                <option value="gbpnzd">GBP/NZD</option>
+                <option value="gbpchf">GBP/CHF</option>
+                <option value="gbpcad">GBP/CAD</option>
+                <option value="gbpaud">GBP/AUD</option>
+                <option value="gbpjpy">GBP/JPY</option>
+
+                <option value="nzdusd">NZD/USD</option>
+
+                <option value="usdjpy">USD/JPY</option>
+                <option value="usdcad">USD/CAD</option>
+                <option value="usdchf">USD/CHF</option>
               </select>
               <label for="currency">Paridade</label>
             </section>
